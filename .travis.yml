@@ -48,8 +48,8 @@ deploy:
   file_glob: true
   skip_cleanup: true
   overwrite: true
+  draft: true
   on:
     condition: "$TRAVIS_OS_NAME = osx"
-    tags: true
     all_branches: true
     repo: hluk/CopyQ
